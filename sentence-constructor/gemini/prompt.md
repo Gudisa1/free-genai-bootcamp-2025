@@ -22,7 +22,7 @@ The foramatted output will generally contain 3 parts
 
 - Vocabulary Table
 - Sentence Structures
-- Sentence Structures
+- Clues and Considerations
 
 ### Vocabulary Table
 
@@ -37,6 +37,7 @@ The foramatted output will generally contain 3 parts
 - do not provide tenses or conjugations in the sentence structure
 - use a decent and well organized persentation for the sentence structure
 - remember to consider the beginner level snetence structures
+- reference the sentence-structure-exmaples.xml for good structure examples
 
   Here are 5 sentence structures that are between beginner and intermediate levels for you to practice:
 
@@ -49,7 +50,7 @@ The foramatted output will generally contain 3 parts
 
 ### 2. **Subject + Verb (Past) + Object**
 
-- **[Subject] [Verb (Past)] [Object].**
+- **[Subject] [Verb ] [Object].**
   - Example: **I watched a movie.**
   - **私は映画を見た。**
   - **Watashi wa eiga o mita.**
@@ -68,9 +69,9 @@ The foramatted output will generally contain 3 parts
   - **彼は大きい犬を見た。**
   - **Kare wa ōkii inu o mita.**
 
-### 5. **Subject + Verb (Te-form) + Object + Verb (Final Form)**
+### 5. **Subject + Verb + Object + Verb **
 
-- **[Subject] [Verb (Te-form)] [Object] [Verb (Final Form)].**
+- **[Subject] [Verb ] [Object] [Verb ].**
   - Example: **I read a book and studied.**
   - **私は本を読んで、勉強した。**
   - **Watashi wa hon o yonde, benkyō shita.**

@@ -22,7 +22,7 @@ The foramatted output will generally contain 3 parts
 
 - Vocabulary Table
 - Sentence Structures
-- Sentence Structures
+- Clues and Considerations
 
 ### Vocabulary Table
 
