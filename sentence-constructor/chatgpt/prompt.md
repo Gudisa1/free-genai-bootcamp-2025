@@ -96,6 +96,7 @@ These structures involve adding time, place, adjectives, and combining multiple 
     - GOOD: Doesn't provide verbose text at the start, and shows vocabulary immediatly
     - GOOD: Shows conceptual sentence strucutre and also it is easier to understand
     - GOOD: Clues don't give away any of the tense of conjugations
+    -BAD : Showing Type Instead of english on the vocabulary table, don't do that
     </score_reasons>
     <assistant:output>
 
