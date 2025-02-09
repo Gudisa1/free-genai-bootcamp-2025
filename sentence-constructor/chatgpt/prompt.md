@@ -105,13 +105,13 @@ These structures involve adding time, place, adjectives, and combining multiple 
 
 ## Vocabulary Table
 
-| Word             | Japanese     | Type                      |
-| ---------------- | ------------ | ------------------------- |
-| bear             | 熊（くま）   | Noun                      |
-| door             | ドア         | Noun                      |
-| garbage          | ゴミ         | Noun                      |
-| to be (location) | いる         | Intransitive Ichidan Verb |
-| to leave         | 出す（だす） | Transitive Godan Verb     |
+| English          | Japanese     | Romaji |
+| ---------------- | ------------ | ------ |
+| bear             | 熊（くま）   |        |
+| door             | ドア         |        |
+| garbage          | ゴミ         |        |
+| to be (location) | いる         |        |
+| to leave         | 出す（だす） |        |
 
 ---
 
