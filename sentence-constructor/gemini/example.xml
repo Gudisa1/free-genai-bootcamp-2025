@@ -1,73 +1,116 @@
-<examples>
+## Examples
+
+Here are Examples of uses input and assistant output, pay attention to the score because and why the example scored the way it is.
+
 <example>
-    <user:input>
-        Bears are at the door, did you leave the garbage out?
-    </user:input>
-    <score>4</score>
-    <score_reasons>
-    - BAD: in the vocabulary table it did not show the japanese characters, the cells are just blank
-    - BAD: the beginner sentence is uncessary, should jsut start showing the vocabulary table
-    - BAD: In the clues we should not provide the polite form of verbs, because the student needs to figure that out.
-    - BAD: The sentence structure says too much we really want something that is conceptual like this: [Location] [Subject] [Verb], [Object] [Verb-past]?
-    </score_reasons>
-    <assistant:output>
-    Let's break down the sentence into smaller parts. Here's a possible table of vocabulary to get you started:
+<user:input>
+Bears are at the door, did you leave the garbage out?
+</user:input>
+<score>6</score>
+<score_reasons>
+-BAD : eventhough the sentence structure is not that bad , the sentence structure is not clear enough it can be explained in more easier to understand manner
+-BAD : at the the start the beginner sentence is unnecessary just start with the vocabulary table
+</score_reasons>
+<assistant:output>
+Great! Let’s work through this sentence step by step. I’ll provide you with a vocabulary table and some clues to help you transcribe the English sentence into Japanese. Remember, I won’t give you the final answer, but I’ll guide you through the process. Let’s start!
 
-    | Japanese | Romaji | English
-    |          | kuma	| bear |
-    |          | tobira | door |
-    |          | gomi	| garbage |
-    |          | noko	| leave behind |
+---
 
-    Now, let's think about the sentence structure. We have two clauses: "Bears are at the door" and "did you leave the garbage out?".
-    For the first clause, we can use the verb (aru) which means "to exist" or "to be present". We'll need to figure out the correct form of the verb to use.
-    For the second clause, we can use the verb (nokosu) which is a more polite way of saying "to leave behind". Again, we'll need to figure out the correct form of the verb to use.
+### Vocabulary Table
 
-    Here's a possible sentence structure:
+| Japanese | Romaji | English            |
+| -------- | ------ | ------------------ |
+| 熊       | kuma   | bear               |
+| ドア     | doa    | door               |
+| ゴミ     | gomi   | garbage            |
+| 出す     | dasu   | to take out        |
+| いる     | iru    | to exist (animate) |
+| 残す     | nokosu | to leave behind    |
+| 〜た     | ~ta    | past tense marker  |
 
-    [Clause 1: Bears are at the door]
-    [Subject] wa [Location] ni [Verb] desu
-    [Clause 2: did you leave the garbage out?]
-    [Verb] masu ka
+---
 
-    Your turn! Can you try to fill in the blanks using the vocabulary and sentence structure provided?
-    </assistant:output>
+### Possible Sentence Structure
+
+1. **Bears are at the door**:
+
+   - Subject: Bears (熊)
+   - Location: at the door (ドアに)
+   - Verb: are (いる)
+
+2. **Did you leave the garbage out?**:
+   - Subject: you (implied, so no need to say "you" explicitly in Japanese)
+   - Object: garbage (ゴミ)
+   - Verb: leave out (出す in past tense)
+   - Question marker: か
+
+---
+
+### Clues
+
+1. For "Bears are at the door":
+
+   - Think about how to say "bears exist at the door."
+   - Use the verb いる for animate existence.
+   - The particle に indicates location.
+
+2. For "Did you leave the garbage out?":
+   - The verb 出す means "to take out" or "to leave out."
+   - Use the past tense form of 出す.
+   - Since it’s a question, add か at the end.
+
+---
+
+### Your Turn!
+
+Try to construct the sentence step by step. If you get stuck, let me know, and I’ll give you more clues. Remember, I won’t give you the final answer, but I’ll help you figure it out! 😊
+</assistant:output>
 </example>
 
 <example>
     <user:input>
         Bears are at the door, did you leave the garbage out?
     </user:input>
-    <score>10</score>
+    <score>10/score>
     <score_reasons>
     - GOOD: Doesn't provide verbose text at the start, and shows vocabulary immediatly
-    - GOOD: Shows conceptual sentence strucutre
+    - GOOD: Shows conceptual sentence strucutre and also it is easier to understand
     - GOOD: Clues don't give away any of the tense of conjugations
     </score_reasons>
     <assistant:output>
-    Cheatsheet:
-    | Word | Japanese | Type |
-    |------|----------|------|
-    | bear | 熊（くま） | Noun |
-    | door | ドア | Noun |
-    | garbage | ゴミ | Noun |
-    | to be (location) | いる | Intransitive Ichidan Verb |
-    | to leave | 出す（だす） | Transitive Godan Verb |
 
-    Sentence structure:
-    [Location] [Subject] [Verb], [Object] [Verb]?
+## Vocabulary Table
 
-    Considerations:
-    - This is a compound sentence with two parts connected by a comma
-    - The first part is stating a location where something exists
-    - The second part is asking about a past action
+| Japanese | Romaji | English            |
+| -------- | ------ | ------------------ |
+| 熊       | kuma   | bear               |
+| ドア     | doa    | door               |
+| ゴミ     | gomi   | garbage            |
+| 出す     | dasu   | to take out        |
+| いる     | iru    | to exist (animate) |
+| 残す     | nokosu | to leave behind    |
+| 〜た     | ~ta    | past tense marker  |
 
-    Possible next steps:
-    - attempt an answer
-    - ask clues about location marking
-    - ask clues about how to connect two sentences
-    - ask clues about question formation
-    - ask clues about verb conjugation
-    </assistant:output>
-</example>
-</examples>
+---
+
+## Sentence Structure
+
+**[Location] [Subject] [Verb], [Object] [Verb-past]?**
+
+### Considerations:
+
+- This is a **compound sentence** with two parts connected by a comma.
+- The first part states a **location** where something exists.
+- The second part is **asking about a past action**.
+
+### Possible Next Steps:
+
+- Attempt an answer.
+- Ask for **clues** about location marking.
+- Ask for **clues** about how to connect two sentences.
+- Ask for **clues** about question formation.
+- Ask for **clues** about verb conjugation.
+
+      </assistant:output>
+
+  </example>
