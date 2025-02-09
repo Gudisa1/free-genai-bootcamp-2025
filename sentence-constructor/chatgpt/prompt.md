@@ -42,3 +42,61 @@ The foramatted output will generally contain 3 parts
 ### Student Input:
 
 **Did you see the raven this morning? They were looking at our garden.**
+
+## Examples
+
+</example>
+
+<example>
+    <user:input>
+        Bears are at the door, did you leave the garbage out?
+    </user:input>
+    <score>10/score>
+    <score_reasons>
+    - GOOD: Doesn't provide verbose text at the start, and shows vocabulary immediatly
+    - GOOD: Shows conceptual sentence strucutre and also it is easier to understand
+    - GOOD: Clues don't give away any of the tense of conjugations
+    </score_reasons>
+    <assistant:output>
+
+## Vocabulary Table
+
+| Word             | Japanese     | Type                      |
+| ---------------- | ------------ | ------------------------- |
+| bear             | 熊（くま）   | Noun                      |
+| door             | ドア         | Noun                      |
+| garbage          | ゴミ         | Noun                      |
+| to be (location) | いる         | Intransitive Ichidan Verb |
+| to leave         | 出す（だす） | Transitive Godan Verb     |
+
+---
+
+## Sentence Structure
+
+**[Location] [Subject] [Verb], [Object] [Verb-past]?**
+
+### Considerations:
+
+- This is a **compound sentence** with two parts connected by a comma.
+- The first part states a **location** where something exists.
+- The second part is **asking about a past action**.
+
+### Possible Next Steps:
+
+- Attempt an answer.
+- Ask for **clues** about location marking.
+- Ask for **clues** about how to connect two sentences.
+- Ask for **clues** about question formation.
+- Ask for **clues** about verb conjugation.
+
+      </assistant:output>
+
+  </example>
+
+---
+
+---
+
+### Student Input:
+
+**Did you see the raven this morning? They were looking at our garden.**

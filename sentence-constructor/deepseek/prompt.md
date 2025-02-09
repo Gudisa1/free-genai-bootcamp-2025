@@ -132,13 +132,13 @@ Try to construct the sentence step by step. If you get stuck, let me know, and I
 
 ---
 
-### 📝 Comment:
-
-> **Deep Seek** didn't provide particles in the vocabulary, requiring students to figure them out. However, it did include particles in the vocabulary table.  
-> **Deep Seek** also provided English, Japanese, and notes in the vocabulary table, but you should **only** include Japanese, Romaji, and English.
-
 ---
 
 ### Student Input:
 
 **Did you see the raven this morning? They were looking at our garden.**
+
+### 📝 Comment:
+
+> **Deep Seek** didn't provide particles in the vocabulary, requiring students to figure them out. However, it did include particles in the vocabulary table.  
+> **Deep Seek** also provided English, Japanese, and notes in the vocabulary table, but you should **only** include Japanese, Romaji, and English.
