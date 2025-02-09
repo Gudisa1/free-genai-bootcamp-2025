@@ -21,8 +21,6 @@ The foramatted output will generally contain 3 parts
 - Sentence Structures
 - Sentence Structures
 
-### Clues and Considerations
-
 ### Vocabulary Table
 
 - The vocabulary table should only include **verbs, adverbs, nouns, and adjectives** in their **dictionary form**
