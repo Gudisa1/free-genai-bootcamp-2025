@@ -95,7 +95,6 @@ Try to construct the sentence step by step. If you get stuck, let me know, and I
     - GOOD: Clues don't give away any of the tense of conjugations
     </score_reasons>
     <assistant:output>
-   # Cheatsheet
 
 ## Vocabulary Table
 
