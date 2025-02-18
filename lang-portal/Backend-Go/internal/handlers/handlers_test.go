@@ -6,9 +6,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"lang-portal/internal/models"
-
 	"github.com/gin-gonic/gin"
+	"lang-portal/internal/models"
 )
 
 func setupTestRouter() (*gin.Engine, *Handlers) {

@@ -7,9 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"lang-portal/internal/service"
-
 	"github.com/gin-gonic/gin"
+	"lang-portal/internal/service"
 )
 
 type Handlers struct {

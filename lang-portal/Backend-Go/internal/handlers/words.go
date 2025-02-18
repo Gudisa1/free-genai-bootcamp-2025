@@ -4,9 +4,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"lang-portal/internal/service"
-
 	"github.com/gin-gonic/gin"
+	"lang-portal/internal/service"
 )
 
 type WordHandler struct {
